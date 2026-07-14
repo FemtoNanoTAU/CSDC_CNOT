@@ -1,0 +1,6 @@
+coincidence_window [ps] = 500
+capture_duration [sec] = 1.0
+dark_capture_duration = 0.0
+no_of_rep = 30
+--------------------------------------------------------------------------------
+step ustep rate1 rate2 rate3 rate4 dark1 dark2 dark3 dark4 rate12 rate13 rate14 rate23 rate24 rate34 dark12 dark13 dark14 dark23 dark24 dark34 rate123 rate124 rate134 rate234 dark123 dark124 dark134
