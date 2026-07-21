@@ -46,6 +46,7 @@ filename = 'Coincidence_Matrix_log_17-03-2025_08-53_CC4_CNOT12_C0T1_coarse_scan.
 # filename = 'Coincidence_Matrix_log_19-03-2025_11-07_CC4_CNOT37_C0T1_coarse_scan.txt'
 
 min_loc = get_minimum_fit_from_hom(os.path.join(dirname, filename), rate_index=11, exclude_rate_list=[10, 13, 14, 15], plot=True)
+plt.savefig('hom_scan_minimum_example.png')
 plt.show()
 print(min_loc)
 # plt.xlim([51645, 51655])
